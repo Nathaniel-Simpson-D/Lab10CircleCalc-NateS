@@ -62,35 +62,35 @@ namespace Lab10CircleTime_NateS
         //methods
         public  double CalculateCircumference()
         {
-            //returns circumference as double rounded to hundreths
+            //returns circumference as double 
             double cir = 2 * radius * System.Math.PI;
-            cir = Math.Round(cir, 2);
+            
             return cir;
         }
         public string CalculateFormattedCircumference()
         {
             //returns circumference as string rounded to hundreths
-            string formCir = $"{CalculateCircumference()}";
+            string formCir = FormatNumber(CalculateCircumference());
             return formCir;
         }
         public double CalculateArea()
         {
             //returns area as a double rounded to the hundreth(s)
             double cirArea = 2 * radius * radius * Math.PI;
-            cirArea = Math.Round(cirArea, 2);
+            
             return cirArea;
         }
         public string CalculateFormattedArea()
         {
-            //returns area as a string
-            string formArea = CalculateArea().ToString();
+            //returns area rounded to hundreths as a string
+            string formArea = FormatNumber(CalculateArea());
             return formArea;
         }
         private string FormatNumber(double x)
         {
             //returns number as a string with 2 digits past the decimal
             x = Math.Round(x, 2);
-            string fX = $"x";
+            string fX = $"{x}";
             return fX;
         }
         public double Radius()
