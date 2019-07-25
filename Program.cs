@@ -132,10 +132,11 @@ namespace Lab10CircleTime_NateS
             }
             else if (isValid)
             {
-               return ValidateDouble("Please enter a value GREATER THAN 0.00");
+                return ValidateDouble("Please enter a value GREATER THAN 0.00");
             }
             else
             {
+                Console.WriteLine("(FormatException)");
                 return ValidateDouble($"{input} is Not Valid!");
             }
         }
