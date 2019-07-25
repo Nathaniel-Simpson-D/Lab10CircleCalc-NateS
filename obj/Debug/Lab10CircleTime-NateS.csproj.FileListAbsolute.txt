@@ -1,0 +1,7 @@
+C:\CLabs\Lab10CircleTime-NateS\bin\Debug\Lab10CircleTime-NateS.exe.config
+C:\CLabs\Lab10CircleTime-NateS\bin\Debug\Lab10CircleTime-NateS.exe
+C:\CLabs\Lab10CircleTime-NateS\bin\Debug\Lab10CircleTime-NateS.pdb
+C:\CLabs\Lab10CircleTime-NateS\obj\Debug\Lab10CircleTime-NateS.csprojAssemblyReference.cache
+C:\CLabs\Lab10CircleTime-NateS\obj\Debug\Lab10CircleTime-NateS.csproj.CoreCompileInputs.cache
+C:\CLabs\Lab10CircleTime-NateS\obj\Debug\Lab10CircleTime-NateS.exe
+C:\CLabs\Lab10CircleTime-NateS\obj\Debug\Lab10CircleTime-NateS.pdb
